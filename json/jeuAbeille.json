@@ -1,0 +1,122 @@
+[
+    {
+      "id": "1",
+      "question": "Ou peut on trouver un essaim ?",
+      "propositions": {
+        "1":"Dans les arbres",
+        "2":"Dans les murs",
+        "3":"Sur l'eau",
+        "4":"Partout"
+      },
+      "img":"01.jpg",
+      "repValide": "rep4"
+    },
+    {
+        "id": "2",
+        "question": " L’abeille est-elle un animal à sang chaud ?",
+        "propositions": {
+          "1":"oui",
+          "2":"non",
+          "3":"A sand froid",
+          "4":"Pas de sang"
+        },
+        "img":"02.jpg",
+        "repValide": "rep1"
+    },
+    {
+        "id": "3",
+        "question": "Combien de reines il y a-t-il dans une ruche ?",
+        "propositions": {
+          "1":"1",
+          "2":"2",
+          "3":"3",
+          "4":"4"
+        },
+        "img":"03.jpg",
+        "repValide": "rep1"
+    },   
+    {
+        "id": "4",
+        "question": "Quelle est la vitesse maximale d’une abeille en vol ?",
+        "propositions": {
+          "1":" 25 km /h. ?",
+          "2":" 35 km /h. ?",
+          "3":" 60 km /h. ?",
+          "4":" 200 km /h. ?"
+        },
+        "img":"04.jpg",
+        "repValide": "rep3"
+    },
+    {
+        "id": "5",
+        "question": "Comment appelle-t'on le mâle de l'abeille ?",
+        "propositions": {
+          "1":"Un abeillon",
+          "2":"Un frelon",
+          "3":"Un faux bourdon",
+          "4":"Un bourdon"
+        },
+        "img":"05.jpg",
+        "repValide": "rep3"
+    }, 
+    {
+        "id": "6",
+        "question": "L’abeille pond ?",
+        "propositions": {
+          "1":"Des larves",
+          "2":"Des œufs",
+          "3":"Des abeillons",
+          "4":"Des cocons"
+        },
+        "img":"06.jpg",
+        "repValide": "rep2"
+    },
+    {
+        "id": "7",
+        "question": "À quelle température le venin est-il détruit ?",
+        "propositions": {
+          "1":"40°C",
+          "2":"50°C",
+          "3":"60°C",
+          "4":"70°C"
+        },
+        "img":"07.jpg",
+        "repValide": "rep3"
+    },
+    {
+        "id": "8",
+        "question": "Quelle est la durée de vie de la reine ?",
+        "propositions": {
+          "1":"6 mois",
+          "2":"1 an",
+          "3":"2 ans",
+          "4":"De 3 à 5 ans."
+        },
+        "img":"08.jpg",
+        "repValide": "rep4"
+    },
+    {
+        "id": "9",
+        "question": "Quel est le périmètre exploré par une butineuse ?",
+        "propositions": {
+          "1":"1 kilomètre.",
+          "2":"2 kilomètres.",
+          "3":"3 kilomètres.",
+          "4":"3 à 4 kilomètres."
+        },
+        "img":"09.jpg",
+        "repValide": "rep4"
+    },
+    {
+        "id": "10",
+        "question": "Combien il y a-t-il d'ouvrières dans la ruche ?",
+        "propositions": {
+          "1":"10 000 ouvrières.",
+          "2":"40 000 ouvrières.",
+          "3":"80 000 ouvrières.",
+          "4":"200 000 ouvrières."
+        },
+        "img":"10.jpg",
+        "repValide": "rep2"
+      }
+]

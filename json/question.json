@@ -1,0 +1,93 @@
+{"Questions": [
+          {
+            "Question":"/img/01.jpg",
+            "Reponse1":"Dans les arbres",
+            "Reponse2":"Dans les murs",
+            "Reponse3":"Sur l'eau",
+            "Reponse4":"Partout",
+            "pregun":"Ou peut on trouver un essaim ?",
+            "Valid": "BTN4"
+          },
+          {
+            "Question":"./img/02.jpg",
+            "Reponse1":"oui",
+            "Reponse2":"non",
+            "Reponse3":"A sand froid",
+            "Reponse4":"Pas de sang",
+            "pregun":" L’abeille est-elle un animal à sang chaud ?",
+            "Valid": "BTN1"
+          },
+          {
+            "Question":"./img/06.jpg",
+            "Reponse1":"Des larves",
+            "Reponse2":"Des œufs",
+            "Reponse3":"Des abeillons",
+            "Reponse4":"Des cocons",
+            "pregun":" L’abeille pond ?",
+            "Valid": "BTN2"
+          },
+          {
+            "Question":"./img/04.jpg",
+            "Reponse1":" 25 km /h. ?",
+            "Reponse2":" 35 km /h. ?",
+            "Reponse3":" 60 km /h. ?",
+            "Reponse4":" 200 km /h. ?",
+            "pregun":" Quelle est la vitesse maximale d’une abeille en vol ??",
+            "Valid": "BTN3"
+          },
+          {
+            "Question":"./img/05.jpg",
+            "Reponse1":"Un abeillon",
+            "Reponse2":"Un frelon",
+            "Reponse3":"Un faux bourdon",
+            "Reponse4":"Un bourdon",
+            "pregun":"Comment appelle-t'on le mâle de l'abeille ?",
+            "Valid": "BTN3"
+          },
+          {
+            "Question":"./img/07.jpg",
+            "Reponse1":"40°C",
+            "Reponse2":"50°C",
+            "Reponse3":"60°C",
+            "Reponse4":"70°C",
+            "pregun":"À quelle température le venin est-il détruit ?",
+            "Valid": "BTN3"
+          },
+          {
+            "Question":"./img/08.jpg",
+            "Reponse1":"6 mois",
+            "Reponse2":"1 an",
+            "Reponse3":"2 ans",
+            "Reponse4":"De 3 à 5 ans.",
+            "pregun":"Quelle est la durée de vie de la reine ?",
+            "Valid": "BTN4"
+          },
+          {
+            "Question":"./img/09.jpg",
+            "Reponse1":"1 kilomètre.",
+            "Reponse2":"2 kilomètres.",
+            "Reponse3":"3 kilomètres.",
+            "Reponse4":"3 à 4 kilomètres.",
+            "pregun":"Quel est le périmètre exploré par une butineuse ? ",
+            "Valid": "BTN4"
+          },
+          {
+            "Question":"./img/03.jpg",
+            "Reponse1":"1",
+            "Reponse2":"2",
+            "Reponse3":"3",
+            "Reponse4":"4",
+            "pregun":"Combien de reines il y a-t-il dans une ruche ? ",
+            "Valid": "BTN1"
+          },
+          {
+            "Question":"./img/10.jpg",
+            "Reponse1":"10 000 ouvrières.",
+            "Reponse2":"40 000 ouvrières.",
+            "Reponse3":"80 000 ouvrières.",
+            "Reponse4":"200 000 ouvrières.",
+            "pregun":"Combien il y a-t-il d'ouvrières dans la ruche ? ",
+            "Valid": "BTN2"
+          }
+          ]
+}
