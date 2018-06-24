@@ -1,7 +1,3 @@
-body{
-    overflow: hidden;
-}
-
 
 .navbar-dark .navbar-nav .nav-link{
   font-size: 1em;
@@ -71,4 +67,7 @@ height: 800px;
 
 .para_pass{
 
+}
+.photo_slider{
+  width: 600px;
 }

@@ -1,0 +1,34 @@
+
+[class*="col-"], footer {
+
+
+  background-color: black;
+}
+
+.pb-5, .py-5{
+  padding-top:0 !important;
+  padding-bottom: 0 !important;
+}
+.card-img-top{
+  height: 250px;
+}
+.col{
+
+  background-color: black;
+
+}
+.card-text:last-child{
+  height: 30%;
+}
+
+.fred{
+  width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+.retour{
+  margin-top: 10px;
+}

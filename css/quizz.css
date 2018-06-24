@@ -1,0 +1,66 @@
+/* nav {
+    background-color: #cf6824;
+}
+nav div a {
+    color: white;
+    text-decoration: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+} */
+
+/* .menuGeneral {
+    background-image: url('http://localhost/Projet-Abeille/assets/img/logo_jesuislabeille.png');
+} */
+
+#imgQuizz {
+    height :183px;
+    width: 275px;
+    text-align: center;
+}
+p {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+h1 {
+    text-align: center
+}
+h1, h2, h3 {
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+span {
+    margin: 13px;
+}
+/* .selected {
+    background-color: rgba(0, 111, 214, 0.562);
+    border: solid;
+    color: white
+} */
+
+.validated {
+    background-color: rgba(128, 128, 128, 0.494);
+    border: solid;
+    color: white;
+}
+.error {
+    background-color: red;
+    border: solid;
+    color: white;
+}
+.correct {
+    background-color: green;
+    border: solid;
+    color: white;
+}
+
+html {
+    font-size: 18px;
+}
+
+button {
+    padding:5px;
+    text-align: center;
+}
