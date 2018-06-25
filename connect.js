@@ -22,10 +22,14 @@ var usrMail = document.getElementById("newsLetter").value;
 var confirm = document.getElementById("vali_mail_news").addEventListener('click', (submitButton) =>{
     var a = document.getElementById("newsLetter").value;
     alert("Merci " + a + " , votre inscription à la newsletter est bien enregistrée.");
-
-  // var p = document.createElement('p');
-  //     p.setAttribute('class', ' text-center submit_para');
-  //     p.style.color = "black";
-  //     p.innerHTML = "Bonjour " + usrname;
-  //     document.body.appendChild(p);
 });
+
+// Vérif Email
+
+var sendMessage = document.getElementById('submit_message').addEventListener('click', (send_mess) =>{
+    var p = document.createElement('p');
+        p.setAttribute("class", "text-success");
+        p.innerHTML = "Votre message a bien été envoyé.";
+        var retour = document.getElementById('contact');
+        retour.appendChild(p);
+})
