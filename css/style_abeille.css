@@ -23,6 +23,7 @@
 
 .fred{
   width: 100%;
+  box-shadow: 5px 4px 8px grey;
 }
 
 body{
@@ -31,4 +32,23 @@ body{
 
 .retour{
   margin-top: 10px;
+}
+.fredtext{
+  color: white;
+  font-style: oblique;
+  font-weight: bolder;
+  text-shadow: 5px 2px 4px grey;
+}
+.fredtext2{
+  padding-left: 15px;
+}
+.fredbut{
+  margin-bottom: 8px;
+  background-color: yellow;
+  color: #000000;
+}
+.fredbut:hover{
+  background-color: #000000;
+  color: yellow;
+  border-color: yellow;
 }
