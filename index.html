@@ -8,7 +8,6 @@
   <link rel="icon" href="img/logo.png">
   <title>Je suis l'abeille</title>
   <meta name="description" content="Je suis l'abeille, l'appli de rando qui s'intéresse aux abeilles.">
-
   <!-- Dépendances CSS -->
   <link rel="stylesheet" href="./css/theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
@@ -60,22 +59,19 @@
     </div>
   </nav>
   <!-- Cover -->
-  <div class="d-flex align-items-center py-5" style="background-image: url(img/femme.png); background-size: cover;">
+  <div class="d-flex align-items-center py-5" style="background-image: url(img/header-bg3.jpg); background-size: cover;">
     <div class="container">
-      <div class="row">
+      <div class="row header_bg">
         <div class="col-lg-12 text-white mt-5">
-          <h1 class="d-none d-md-block display-3 text-white title">" Je suis l'abeille "</h1>
-          <img class="img-fluid d-block mx-auto" width="200" src="img/logo.png">
-          <a href="#newsletter" class="btn btn-md mt-4 btn-outline-success">Nous contacter</a>
-          <p class="container para_header text-white">Ce site internet est un prototype et a été développé durant un hackathon qui a eu lieu
-            à I'NESS Narbonne du 18 au 22 juin 2018</p>
-
+          <h1 class="text-dark">" Je suis l'abeille "</h1>
+          <img class="img-fluid d-block mx-auto" width="180" src="img/logo.png">
+          <a href="#newsletter" class="btn btn-md mt-4 btn-outline-success but_contact">Nous contacter</a>
+          <p class="para_header text-white container">Ce site internet est un prototype et a été développé durant un hackathon qui a eu lieu à I'NESS Narbonne du 18 au 22 juin 2018</p>
           <p class="container para_header text-warning">les formulaires présents sur celui-ci ne sont pas actifs.</p>
         </div>
       </div>
     </div>
   </div>
-
   <!-- Parallax section -->
   <!-- Nos amies les abeilles -->
   <div class="py-5 bg-light" id="speakers">
@@ -132,311 +128,294 @@
     </div>
   </div>
 
+
   <!-- MAP AUTOUR DE MOI -->
-  <div class="py-5" id="carte">
+  <div class="text-justify py-4" id="carte">
     <div class="container">
       <div class="row">
         <div class="col-md-12 my-2">
           <h1 class="">Autour de moi</h1>
-          <div class="row m-3">
+          <div class="row">
             <div class="container col-md-12">
               <iframe src="https://www.google.com/maps/d/embed?mid=1526J6t65n6kXL1KYL3RxPmHBN4CfA3Pu" height="450" class="" width="100%"></iframe>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
-              <p class="p-2">Un Regard sur la nature:
-                <br>&nbsp; &nbsp;Lors de vos sorties en milieux naturels, vous avez l'opportunité de vous prendre pour un pro de la nature ! Prenez des photos de spécimens d'abeilles, déposez-les, et elles seront repérées sur nos cartes. Des professionnels
-                et amateurs éclairés prendrons la suite et ajouteront des descriptions et commentaires à chacune de vos photos.</p>
-              </div>
-
-              <!-- UPLOAD PHOTOS -->
-              <div class="col-md-6">
-                <form class="">
-                  <div class="form-group">
-                    <label>Nom/prénom</label>
-                    <input type="text" class="form-control" placeholder="Entrez votre nom" required="required"> </div>
-                    <div class="form-group">
-                      <label>Lieu&nbsp;</label>
-                      <input type="text" class="form-control" placeholder="Indiquez le lieu où a été prise la photo" required="required"> </div>
-                    </form>
-
-                    <a class="btn btn-primary" href="#">Envoyer votre photo</a>
-                  </div>
-                </div>
-              </div>
+              <p class="py-2">Un Regard sur la nature:
+                <br>Lors de vos sorties en milieux naturels, vous avez l'opportunité de vous prendre pour un pro de la nature ! Prenez des photos de spécimens d'abeilles, déposez-les, et elles seront repérées sur nos cartes. Des professionnels et amateurs
+                éclairés prendrons la suite et ajouteront des descriptions et commentaires à chacune de vos photos.</p>
+            </div>
+            <!-- UPLOAD PHOTOS -->
+            <div class="col-md-6">
+              <form class="">
+                <div class="form-group">
+                  <label>Nom/prénom</label>
+                  <input type="text" class="form-control" placeholder="Entrez votre nom" required="required"> </div>
+                <div class="form-group">
+                  <label>Lieu&nbsp;</label>
+                  <input type="text" class="form-control" placeholder="Indiquez le lieu où a été prise la photo" required="required"> </div>
+              </form>
+              <a class="btn btn-primary button_upload" href="#">Envoyer votre photo</a>
             </div>
           </div>
-
-          <!-- SLIDER PHOTO CONTRIBUTEURS - 5 DERNIERES -->
-          <div class="py-5 bg-success" id="post_picture">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h1 class="">Les dernières photos de nos contributeurs</h1>
+        </div>
+      </div>
+    </div>
+    <!-- SLIDER PHOTO CONTRIBUTEURS - 5 DERNIERES -->
+    <div class="bg-success py-3" id="post_picture">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-left">Dernières photos</h2>
+          </div>
+        </div>
+        <div class="container"> </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              <!-- PHOTO 1 -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block img-fluid w-100 mx-auto border border-danger" src="img/001.jpg">
+                  <div class="carousel-caption">
+                    <h3>Abeille italienne</h3>
+                    <p>Photo prise le 05 Mars 2018</p>
+                    <i class="fas fa-check-circle text-success"> Aucun danger </i>
+                  </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div id="carousel" class="carousel slide" data-ride="carousel">
-
-                    <!-- PHOTO 1 -->
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block img-fluid w-100 mx-auto border border-danger" src="img/001.jpg">
-                        <div class="carousel-caption">
-                          <h3>Abeille italienne</h3>
-                          <p>Photo prise le 05 Mars 2018</p>
-                          <i class="fas fa-check-circle text-success"> Aucun danger </i>
-                        </div>
-                      </div>
-
-                        <!-- PHOTO 2 -->
-                      <div class="carousel-item">
-                        <img class="d-block img-fluid w-100 border border-dark" src="img/essaim.jpg">
-                        <div class="carousel-caption">
-                          <h3>Essaim d'abeilles - Narbonne</h3>
-                          <p>Photo prise le 10 Février 2018</p>
-                          <p>
-                            <i class="fas fa-exclamation-triangle text-danger"> DANGER </i>
-                            <i class="fas fa-exclamation-triangle text-danger"></i>
-                          </p>
-                        </div>
-                      </div>
-
-                        <!-- PHOTO 3 -->
-                      <div class="carousel-item">
-                        <img class="img-fluid" src="img/003.jpg">
-                        <div class="carousel-caption">
-                          <h2>Abeille solitaire résine</h2>
-                          <p>Photo prise le 10 Avril 2018</p>
-                          <i class="fas fa-check-circle text-success"> Aucun danger</i>
-                        </div>
-                      </div>
-
-                        <!-- PHOTO 4 -->
-                      <div class="carousel-item">
-                        <img class="img-fluid" src="img/004.jpg">
-                        <div class="carousel-caption">
-                          <h2>Abeille collète</h2>
-                          <p>Photo prise le 22 Janvier 2018</p>
-                          <i class="fas fa-check-circle text-success"> Aucun danger</i>
-                        </div>
-                      </div>
-
-                        <!-- PHOTO 5 -->
-                      <div class="carousel-item">
-                        <img class="img-fluid" src="img/005.jpg">
-                        <div class="carousel-caption">
-                          <h2>Abeille à bande bleue d'Australie</h2>
-                          <p>Photo prise le 3 Juin 2017</p>
-                          <i class="fas fa-check-circle text-success"> Aucun danger</i>
-                        </div>
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
+                <!-- PHOTO 2 -->
+                <div class="carousel-item">
+                  <img class="d-block img-fluid w-100 border border-dark" src="img/essaim.jpg">
+                  <div class="carousel-caption">
+                    <h3>Essaim d'abeilles - Narbonne</h3>
+                    <p>Photo prise le 10 Février 2018</p>
+                    <p>
+                      <i class="fas fa-exclamation-triangle text-danger"> DANGER </i>
+                      <i class="fas fa-exclamation-triangle text-danger"></i>
+                    </p>
+                  </div>
+                </div>
+                <!-- PHOTO 3 -->
+                <div class="carousel-item">
+                  <img class="img-fluid" src="img/003.jpg">
+                  <div class="carousel-caption">
+                    <h2>Abeille solitaire résine</h2>
+                    <p>Photo prise le 10 Avril 2018</p>
+                    <i class="fas fa-check-circle text-success"> Aucun danger</i>
+                  </div>
+                </div>
+                <!-- PHOTO 4 -->
+                <div class="carousel-item">
+                  <img class="img-fluid" src="img/004.jpg">
+                  <div class="carousel-caption">
+                    <h2>Abeille collète</h2>
+                    <p>Photo prise le 22 Janvier 2018</p>
+                    <i class="fas fa-check-circle text-success"> Aucun danger</i>
+                  </div>
+                </div>
+                <!-- PHOTO 5 -->
+                <div class="carousel-item">
+                  <img class="img-fluid" src="img/005.jpg">
+                  <div class="carousel-caption">
+                    <h2>Abeille à bande bleue d'Australie</h2>
+                    <p>Photo prise le 3 Juin 2017</p>
+                    <i class="fas fa-check-circle text-success"> Aucun danger</i>
                   </div>
                 </div>
               </div>
+              <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section bg-faded">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="mb-4">Qui sommes-nous ?</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-justify m-0 py-2">"Je suis l'abeille" L'appli de rando qui s'intéresse aux abeilles. "Je suis l'abeille", c'est un peu le Waze des abeilles sauvages pour les randonneurs. À destination des publics du tourisme verts, nous proposons un pack d’initiation naturaliste.
+            Initiez-vous à la découverte du monde des abeilles sauvages, lors de vos excursions en pleine nature, grâce à notre application mobile et nos autels d'info qui vous accompagnent le long de votre parcours. Poursuivez une quête naturaliste durant
+            vos expéditions plein-air, et suivez l'abeille!</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-          <div class="py-5 section bg-faded bg-light">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h1 class="mb-4">Qui sommes-nous ?</h1>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 border border-dark">
-                  <p class="m-4 text-justify">"Je suis l'abeille" L'appli de rando qui s'intéresse aux abeilles. "Je suis l'abeille", c'est un peu le Waze des abeilles sauvages pour les randonneurs. À destination des publics du tourisme verts, nous proposons un pack d’initiation naturaliste.
-                    Initiez-vous à la découverte du monde des abeilles sauvages, lors de vos excursions en pleine nature, grâce à notre application mobile et nos autels d'info qui vous accompagnent le long de votre parcours. Poursuivez une quête naturaliste
-                    durant vos expéditions plein-air, et suivez l'abeille!</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <!-- SECTION NEWSLETTER -->
-            <div class="py-5 bg-success" id="newsletter">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-8 text-md-left text-center">
-                    <h1 class="text-white">Newsletter</h1>
-                    <p>Restez informé des dernières infos et mise à jour de notre application.</p>
-                  </div>
-                  <div class="col-md-4 align-self-center animate-in-right">
-                    <form class="form-inline">
-                      <div class="input-group">
-                        <input id="newsLetter" type="email" class="form-control" placeholder="Votre Email" value="" required="required">
-                        <div class="input-group-append">
-                          <button id="vali_mail_news" class="btn btn-dark" type="button">S'inscrire</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
+  <!-- SECTION NEWSLETTER -->
+  <div class="py-5 bg-success" id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-md-left text-center">
+          <h1 class="text-white">Newsletter</h1>
+          <p>Restez informé des dernières infos et mise à jour de notre application.</p>
+        </div>
+        <div class="col-md-4 align-self-center animate-in-right">
+          <form class="form-inline">
+            <div class="input-group">
+              <input id="newsLetter" type="email" class="form-control" placeholder="Votre Email" value="" required="required">
+              <div class="input-group-append">
+                <button id="vali_mail_news" class="btn btn-dark" type="button">S'inscrire</button>
               </div>
             </div>
-
-            <!-- FOOTER -->
-            <footer class="text-md-left text-center p-4 text-light bg-dark">
-              <div class="container formContact">
-                <div class="row" id="contact">
-                  <div class="my-3 col-lg-4 col-md-4">
-                    <h3>Nous contacter</h3>
-                    <form>
-                      <fieldset class="form-group my-3">
-                        <input type="email" class="form-control" id="Input Email" placeholder="Email" required="required"> </fieldset>
-                        <fieldset class="form-group my-3">
-                          <input type="text" class="form-control" id="Input Message" placeholder="Message" required="required"> </fieldset>
-                          <button id="submit_message" type="button" class="btn btn-block btn-outline-primary btn-sm">Envoyer</button>
-                        </form>
-                      </div>
-                      <div class="col-lg-4"> </div>
-                      <div class="my-3 col-lg-4">
-                        <h3>Nous suivre</h3>
-                        <a href="https://www.facebook.com/Je-suis-labeille-2088700154683412/" target="blank">
-                          <i class="fab fa-facebook-square text-muted fa-3x m-2"></i>
-                        </a>
-                        <a href="https://www.instagram.com" target="blank">
-                          <i class="fab fa-3x fa-instagram text-muted m-2"></i>
-                        </a>
-                        <a href="https://twitter.com" target="blank">
-                          <i class="fab fa-3x fa-twitter m-2 text-muted"></i>
-                        </a>
-                        <a href="https://plus.google.com" target="blank">
-                          <i class="fab fa-3x fa-google-plus-official text-muted m-2"></i>
-                        </a>
-                        <p class="container text-white text-center">Site internet responsive réalisé par Coline, Cédric, Chris, Fred et Pascal - Hackathon I'NESS Narbonne</p>
-                        <p class="container text-white text-justify text-center">- 18 au 22 juin 2018 -</p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <p class="text-muted">© Copyright Hackhaton 2018 - Je suis l'abeille - Tous droits réservés. </p>
-                      </div>
-                    </div>
-                  </div>
-                </footer>
-
-                <!-- MODAL SIGN IN -->
-                <div class="modal fade" id="myModal" role="dialog">
-                  <div class="modal-dialog">
-
-                    <!-- MODAL CONTENT-->
-                    <div class="modal-content">
-                      <div class="modal-header" style="padding:35px 50px;">
-                        <h4>
-                          <i class="fas fa-user"></i> Connexion</h4>
-                        </div>
-                        <div class="modal-body" style="padding:30px 40px;">
-                          <form role="form">
-                            <div class="form-group">
-                              <label for="usrname">
-                                <i class="fas fa-envelope"></i> Utilisateur</label>
-                                <input type="text" class="form-control" id="usrname" placeholder="Votre email ou nom d'utilisateur"> </div>
-                                <div class="form-group">
-                                  <label for="psw">
-                                    <span class="fas fa-key"></span> Mot de passe</label>
-                                    <input type="password" class="form-control" id="psw_in" placeholder="Mot de passe"> </div>
-                                    <div class="checkbox">
-                                      <label>
-                                        <input type="checkbox" value="" checked=""> J'autorise "Je suis l'abeille" à me géolocaliser</label>
-                                      </div>
-                                      <button type="submit" class="btn btn-success btn-block" id="connect_user">
-                                        <span class="fas fa-check-circle"></span> Connexion</button>
-                                      </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                      <button type="submit" class="btn btn-danger" data-dismiss="modal">
-                                        <span class="fas fa-ban"></span> Annuler</button>
-                                      </div>
-                                      <div class="modal_footer2">
-                                        <p class="para_pass">Mot de passe
-                                          <a href="#">oublié?</a>
-                                        </p>
-                                        <p>Identifiant
-                                          <a href="#">oublié?</a>
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!-- FIN MODAL SIGN IN -->
-
-                                <!-- DEBUT MODAL SIGN UP -->
-                                <div class="modal fade" id="myModal2" role="dialog">
-                                  <div class="modal-dialog">
-
-                                    <!-- MODAL CONTENT-->
-                                    <div class="modal-content">
-                                      <div class="modal-header" style="padding:35px 50px;">id="usrName"
-                                        <h4>
-                                          <span class="fas fa-lock"></span> Inscription</h4>
-                                        </div>
-                                        <div class="modal-body" style="padding:50px 60px;">
-                                          <form role="form">
-                                            <div class="form-group">
-                                              <label id="usrName1" for="usrname">
-                                                <i class="fas fa-user-plus"></i> Nom d'utilisateur</label>
-                                                <input type="text" class="form-control" id="usrname2" placeholder="ex.: Jdupont75"> </div>
-                                                <div class="form-group">
-                                                  <label id="eMail" for="usrname">
-                                                    <span class="glyphicon glyphicon-envelope"></span> Adresse Email</label>
-                                                    <input type="text" class="form-control" id="usrname3" placeholder="Jdupont75@exemple.com"> </div>
-                                                    <div class="form-group">
-                                                      <label for="psw">
-                                                        <span class="fas fa-key"></span> Mot de passe</label>
-                                                        <input type="password" class="form-control" id="psw" placeholder="Mot de passe"> </div>
-                                                        <div class="form-group">
-                                                          <label for="psw">
-                                                            <span class="fas fa-key"></span> Confirmer le mot de passe</label>
-                                                            <input type="password" class="form-control" id="psw2" placeholder="Mot de passe"> </div>
-                                                            <button id="submit_signup" type="submit" class="btn btn-success btn-block">
-                                                              <span class="fas fa-check-circle"></span> Valider</button>
-                                                            </form>
-                                                          </div>
-                                                          <div class="modal-footer">
-                                                            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-                                                              <span class="fas fa-ban"></span> Annuler</button>
-                                                              <!-- <p>Mot de passe <a href="#">oublié?</a></p> -->
-                                                            </div>
-                                                          </div>
-                                                        </div>
-                                                        <!-- FIN MODAL SIGN UP -->
-
-
-
-                                                        <!-- JavaScript dependencies -->
-                                                        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-                                                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-                                                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-                                                        <!-- Script: Smooth scrolling between anchors in a same page -->
-                                                        <script src="https://d33wubrfki0l68.cloudfront.net/js/26a3094ac9c5e8d045f102e8929a6db58b3bbd83/aquamarine/js/smooth-scroll.js"></script>
-                                                        <!-- Global site tag (gtag.js) - Google Analytics -->
-                                                        <script src="https://www.googletagmanager.com/gtag/js?id=UA-29443235-15" async=""></script>
-                                                        <script src="connect.js"></script>
-                                                        <script>
-                                                        window.dataLayer = window.dataLayer || [];
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <footer class="text-md-left text-center text-light bg-dark">
+    <div class="container formContact">
+      <div class="row" id="contact">
+        <div class="col-lg-4 col-md-4 my-2">
+          <h3>Nous contacter</h3>
+          <form>
+            <fieldset class="form-group my-3">
+              <input type="email" class="form-control" id="Input Email" placeholder="Email" required="required"> </fieldset>
+            <fieldset class="form-group my-3">
+              <input type="text" class="form-control" id="Input Message" placeholder="Message" required="required"> </fieldset>
+            <button id="submit_message" type="button" class="btn btn-block btn-outline-primary btn-sm button_upload">Envoyer</button>
+          </form>
+        </div>
+        <div class="col-lg-4"> </div>
+        <div class="col-lg-4 my-2">
+          <h3 class="">Nous suivre</h3>
+          <a href="https://www.facebook.com/Je-suis-labeille-2088700154683412/" target="blank">
+            <i class="fab fa-facebook-square text-muted fa-3x m-2"></i>
+          </a>
+          <a href="https://www.instagram.com" target="blank">
+            <i class="fab fa-3x fa-instagram text-muted m-2"></i>
+          </a>
+          <a href="https://twitter.com" target="blank">
+            <i class="fab fa-3x fa-twitter m-2 text-muted"></i>
+          </a>
+          <a href="https://plus.google.com" target="blank">
+            <i class="fab fa-3x fa-google-plus-official text-muted m-2"></i>
+          </a>
+          <p class="container text-white text-justify my-3">Site internet responsive réalisé par Coline, Cédric, Chris, Fred et Pascal - Hackathon I'NESS Narbonne</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-muted text-center">© Copyright Hackhaton 2018 - Je suis l'abeille - Tous droits réservés. </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- MODAL SIGN IN -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- MODAL CONTENT-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <h4>
+            <i class="fas fa-user"></i> Connexion</h4>
+        </div>
+        <div class="modal-body" style="padding:30px 40px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname">
+                <i class="fas fa-envelope"></i> Utilisateur</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Votre email ou nom d'utilisateur"> </div>
+            <div class="form-group">
+              <label for="psw">
+                <span class="fas fa-key"></span> Mot de passe</label>
+              <input type="password" class="form-control" id="psw_in" placeholder="Mot de passe"> </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="" checked=""> J'autorise "Je suis l'abeille" à me géolocaliser</label>
+            </div>
+            <button type="submit" class="btn btn-success btn-block" id="connect_user">
+              <span class="fas fa-check-circle"></span> Connexion</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger" data-dismiss="modal">
+            <span class="fas fa-ban"></span> Annuler</button>
+        </div>
+        <div class="modal_footer2">
+          <p class="para_pass">Mot de passe
+            <a href="#">oublié?</a>
+          </p>
+          <p>Identifiant
+            <a href="#">oublié?</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIN MODAL SIGN IN -->
+  <!-- DEBUT MODAL SIGN UP -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <!-- MODAL CONTENT-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">id="usrName"
+          <h4>
+            <span class="fas fa-lock"></span> Inscription</h4>
+        </div>
+        <div class="modal-body" style="padding:50px 60px;">
+          <form role="form">
+            <div class="form-group">
+              <label id="usrName1" for="usrname">
+                <i class="fas fa-user-plus"></i> Nom d'utilisateur</label>
+              <input type="text" class="form-control" id="usrname2" placeholder="ex.: Jdupont75"> </div>
+            <div class="form-group">
+              <label id="eMail" for="usrname">
+                <span class="glyphicon glyphicon-envelope"></span> Adresse Email</label>
+              <input type="text" class="form-control" id="usrname3" placeholder="Jdupont75@exemple.com"> </div>
+            <div class="form-group">
+              <label for="psw">
+                <span class="fas fa-key"></span> Mot de passe</label>
+              <input type="password" class="form-control" id="psw" placeholder="Mot de passe"> </div>
+            <div class="form-group">
+              <label for="psw">
+                <span class="fas fa-key"></span> Confirmer le mot de passe</label>
+              <input type="password" class="form-control" id="psw2" placeholder="Mot de passe"> </div>
+            <button id="submit_signup" type="submit" class="btn btn-success btn-block">
+              <span class="fas fa-check-circle"></span> Valider</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="fas fa-ban"></span> Annuler</button>
+          <!-- <p>Mot de passe <a href="#">oublié?</a></p> -->
+        </div>
+      </div>
+    </div>
+    <!-- FIN MODAL SIGN UP -->
+    <!-- JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Script: Smooth scrolling between anchors in a same page -->
+    <script src="https://d33wubrfki0l68.cloudfront.net/js/26a3094ac9c5e8d045f102e8929a6db58b3bbd83/aquamarine/js/smooth-scroll.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-29443235-15" async=""></script>
+    <script src="connect.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
                                                         function gtag(){dataLayer.push(arguments);}
                                                         gtag('js', new Date());
 
                                                         gtag('config', 'UA-29443235-15');
-                                                        </script>
-                                                        <!-- Hotjar Tracking Code for https://templates.pingendo.com -->
-                                                        <script>
-                                                        (function(h,o,t,j,a,r){
+    </script>
+    <!-- Hotjar Tracking Code for https://templates.pingendo.com -->
+    <script>
+      (function(h,o,t,j,a,r){
                                                           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                                                           h._hjSettings={hjid:713084,hjsv:6};
                                                           a=o.getElementsByTagName('head')[0];
@@ -444,11 +423,10 @@
                                                           r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                                                           a.appendChild(r);
                                                         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-                                                        </script>
-                                                        <!-- <script src="script.js"></script> -->
-                                                      </div>
+    </script>
+    <!-- <script src="script.js"></script> -->
+  </div>
 
+</body>
 
-                                                    </body>
-
-                                                    </html>
+</html>
